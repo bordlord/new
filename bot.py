@@ -17,5 +17,11 @@ def send_text(message):
         bot.send_message(message.chat.id, 'Привет, мой создатель')
     elif message.text.lower() == 'Колдун':
         bot.send_message(message.chat.id, 'Пидр')
+    elif message.text.lower() == 'Жрец':
+         bot.send_message(message.chat.id, 'Норм')
+    elif message.text.lower() == 'Волшебник':
+         bot.send_message(message.chat.id, 'Норм')
+    elif message.text.lower() == 'Воин':
+         bot.send_message(message.chat.id, 'ебалай')
 
 bot.polling()
