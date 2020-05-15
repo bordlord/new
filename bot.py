@@ -13,9 +13,9 @@ def start_message(message):
 
 @bot.message_handler(content_types=['text'])
 def send_text(message):
-    if message.text.lower() == 'привет':
+    if message.text.lower() == 'Друид':
         bot.send_message(message.chat.id, 'Привет, мой создатель')
-    elif message.text.lower() == 'пока':
-        bot.send_message(message.chat.id, 'Прощай, создатель')
+    elif message.text.lower() == 'Колдун':
+        bot.send_message(message.chat.id, 'Пидр')
 
 bot.polling()
